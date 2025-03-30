@@ -1,0 +1,85 @@
+﻿.heading-secondary {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.registration-form input {
+    font-size: 3.2rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.registration-btn {
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1.2rem 1.8rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    color: #2b8a3e;
+}
+
+.registration-btn:hover,
+.registration-btn:active {
+    box-shadow: inset 0 0 0 100px #dee2e6;
+    transition: all 300ms;
+}
+
+.registration-text {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.singin-link:link,
+.singin-link:visited {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.singin-link:hover,
+.singin-link:active {
+    color: #dee2e6;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 0.4rem; /* Ustawienie odstępu między polami */
+}
+
+.text-danger {
+    display: block; /* Ustawienie jako blokowy element */
+    min-height: 1.8rem; /* Rezerwacja miejsca na komunikaty */
+    font-size: 1.6rem; /* Wielkość tekstu */
+    color: red; /* Kolor tekstu błędu */
+    margin-top: 0.1rem; /* Odstęp od pola */
+    visibility: hidden; /*Ukrycie komunikatu domyślnie */
+}
+
+.text-danger ul li {
+    list-style-type: none;
+    list-style: none;
+}
+
+.text-danger:empty {
+    visibility: hidden; /* Ukrycie, gdy brak treści */
+}
+
+.text-danger:not(:empty) {
+    visibility: visible; /* Pokazanie komunikatu, gdy treść istnieje */
+}
+
+.text-registered {
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 0.1rem;
+    font-weight: 300;
+}

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Order_Disc.Models.FolderVM>
+@{
+    Layout = null;
+}
+<div id="user-folders">
+    @if (!Model.Any())
+    {
+        <p>No folders available. Create a new folder to get started!</p>
+    }
+    else
+    {
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th class="sortable" onclick="sortTable(0)">Folder Name</th>
+                    <th class="sortable" onclick="sortTable(1)">Owner</th>
+                    <th class="sortable" onclick="sortTable(2)">Created</th>
+                    <th class="icon-column"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var folder in Model)
+                {
+                    <tr ondblclick="navigateToFolder(@folder.Id)" data-id="@folder.Id">
+                        <td>
+                            <i class="bi bi-folder-fill folder-icon"></i>
+                            <span class="folder-name">@folder.Name</span>
+                        </td>
+                        <td>
+                            <i class="bi bi-person-fill owner-icon"></i>
+                            <span class="owner-text">Me</span>
+                        </td>
+                        <td>
+                            <span class="last-modified">@folder.CreatedDate.ToString("dd MMM yyyy")</span>
+                        </td>
+                        <td>
+                            <i class="bi bi-exclamation-circle options-icon gray-icon active" onclick="MarkImportantFolder(@folder.Id, 'folder')"></i>
+                            <section class="modal-container" id="ShareModalSection">
+                                <div class="modal">
+                                    <h2 class="modal-title">Enter e-mail:</h2>
+                                    <form onsubmit="ShareFolder(event)">
+                                        <input type="hidden" id="folderIdToShare" />
+                                        <input type="text" class="folder-input" id="emailToShare" name="email" required />
+                                        <div class="buttons-modal">
+                                            <button type="submit">Share</button>
+                                            <button type="button" onclick="closeShareFolderModal()">Cancel</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </section>
+                            <i class="bi bi-send-fill options-icon gray-icon active" onclick="openShareFolderModal(@folder.Id)"></i>
+                            <i class="bi bi-download options-icon gray-icon active" onclick="downloadItem('folder', @folder.Id)"></i>
+                            <i class="bi bi-trash3-fill options-icon gray-icon active" onclick="MoveFolderToTrash(@folder.Id)"></i>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

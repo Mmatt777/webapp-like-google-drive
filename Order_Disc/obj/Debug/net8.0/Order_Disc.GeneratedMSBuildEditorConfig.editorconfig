@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Order_Disc
+build_property.RootNamespace = Order_Disc
+build_property.ProjectDir = D:\Program Files\VisualStudio\Order_Disc\Order_Disc\Order_Disc\Order_Disc\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Program Files\VisualStudio\Order_Disc\Order_Disc\Order_Disc\Order_Disc
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Account/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Folder/AllImportantItems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyXEFsbEltcG9ydGFudEl0ZW1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Folder/FolderContents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyXEZvbGRlckNvbnRlbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Folder/MyDisc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyXE15RGlzYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Folder/Results.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyXFJlc3VsdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Folder/SharedFiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyXFNoYXJlZEZpbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Folder/SharedFolders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyXFNoYXJlZEZvbGRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Folder/TrashContents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyXFRyYXNoQ29udGVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Folder/UserFolders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sZGVyXFVzZXJGb2xkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Program Files/VisualStudio/Order_Disc/Order_Disc/Order_Disc/Order_Disc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9zpn04xgn9

@@ -1,0 +1,51 @@
+﻿@model Order_Disc.Models.LoginVM
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="~/css/Login/style.css" rel="stylesheet" />
+    <link href="~/css/Login/general.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="login-container">
+        <div class="box">
+            <div class="form-group">
+                <h2 class="heading-secondary">Log In</h2>
+                @Html.ValidationSummary(true, "", new { @class = "text-danger-summary" })
+            </div>
+            <form class="login-form" method="post" action="@Url.Action("Login", "Account")">
+                <div class="form-group">
+                    <input asp-for="UserNameOrEmail" class="longin-form"
+                           id="UserNameOrEmail"
+                           name="UserNameOrEmail"
+                           type="UserNameOrEmail"
+                           placeholder="UserNameOrEmail" />
+                    @Html.ValidationMessageFor(a => a.UserNameOrEmail, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <input asp-for="Password" class="longin-form"
+                           id="password"
+                           name="password"
+                           type="password"
+                           placeholder="Password" />
+                    @Html.ValidationMessageFor(a => a.Password, "", new { @class = "text-danger" })
+                </div>
+                <button type="submit" value="Login" class="login-btn">LOG IN</button>
+                <div class="small-box">
+                    <p class="login-text">
+                        You don't have an account yet?
+                    </p>
+                    <a href="@Url.Action("Registration", "Account")" class="acc-create-link">Create a new account!</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

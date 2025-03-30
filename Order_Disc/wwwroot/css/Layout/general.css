@@ -1,0 +1,122 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Public+Sans", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #000;
+    overflow-x: hidden;
+}
+/**************************************************************************************/
+/* GENERAL REUSABLE COMPONENTS */
+/**************************************************************************************/
+.container {
+    max-width: 155rem;
+    margin: 0 auto;
+    padding: 0 18.2rem;
+}
+
+.heading-primary,
+.heading-secendery,
+.heading-tertiary {
+    font-weight: 700;
+    color: #000;
+    letter-spacing: -0.5px;
+}
+
+.heading-primary {
+    font-size: 5.2rem;
+    line-height: 1.05;
+    margin-bottom: 4.8rem;
+}
+
+.heading-secendery {
+    font-size: 3.2rem;
+    line-height: 1.05;
+    margin-bottom: 4.8rem;
+}
+
+.heading-tertiary {
+    color: #444;
+    font-size: 2.2rem;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+}
+
+.grid {
+    display: grid;
+    column-gap: 6.4rem;
+    margin-bottom: 9.6rem;
+}
+
+    .grid:last-child {
+        margin-bottom: 0;
+    }
+
+.grid--center-ver {
+    align-items: center;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-2-3 {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: #2b8a3e;
+    padding: 1.2rem 2.4rem;
+    text-decoration: none;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+    background-color: #fff;
+    color: #2b8a3e;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+    background-color: #fff;
+    /* border inside */
+    box-shadow: inset 0 0 0 3px #2b8a3e;
+}
+
+.btn--full:link,
+.btn--full:visited {
+    background-color: #2b8a3e;
+    color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+    background-color: #fff;
+    color: #2b8a3e;
+    /* border inside */
+    box-shadow: inset 0 0 0 3px #2b8a3e;
+}

@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Order_Disc</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/css/Layout/style.css" rel="stylesheet" />
+    <link href="~/css/Layout/general.css" rel="stylesheet" />
+    <link href="~/css/Layout/queries.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="header stycky">
+        <a href="@Url.Content("~/")">
+            <img class="logo logos" alt="TMBO Logo" src="@Url.Content("~/img/logo_png.png")" />
+        </a>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a href="#how-it-works" class="main-nav-link">How it works</a></li>
+                <li>
+                    <a href="@Url.Action("Login", "Account")" class="main-nav-link">Log in</a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Registration", "Account")" class="main-nav-link">Create account</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <main>
+        <section class="section-hero">
+            <div class="hero">
+                <div class="hero-text-box">
+                    <h1 class="heading-primary">
+                        Simple, fast, and convenient document management
+                    </h1>
+                    <p class="hero-description">
+                        Streamline your work with TMBO. All documents in one place, always organized and easily accessible.
+                    </p>
+                    <a href="@Url.Content("~/registration")" class="btn btn--full margin-rigth-sm">
+                        Create an account
+                    </a>
+                    <a href="#how-it-works" class="btn btn--outline">
+                        Learn more
+                        <ion-icon name="arrow-down-outline" class="darrow"></ion-icon>
+                    </a>
+                </div>
+                <div class="hero-img-box">
+                    <img src="@Url.Content("~/img/heroimg.webp")"
+                         alt="TMBO Interface"
+                         class="hero-img" />
+                </div>
+            </div>
+        </section>
+        <section class="section-how" id="how-it-works">
+            <div class="container">
+                <span class="subheading">How it works</span>
+                <h2 class="heading-secendery-how">
+                    Three steps to stay organized
+                </h2>
+            </div>
+            <div>
+                <div class="container grid grid--2-cols grid--center-ver">
+                    <div class="step-text-box">
+                        <p class="step-number">01</p>
+                        <h3 class="heading-tertiary">Effortless registration</h3>
+                        <p class="step-description">
+                            Register in just a few clicks by providing basic information. No hassle, start using TMBO in minutes.
+                        </p>
+                    </div>
+                    <div class="step-img-box">
+                        <img src="@Url.Content("~/img/work1.webp")" class="step-img" alt="" />
+                    </div>
+                </div>
+                <div class="container grid grid--2-cols grid--center-ver">
+                    <div class="step-img-box">
+                        <img src="@Url.Content("~/img/work2.webp")" class="step-img" alt="" />
+                    </div>
+                    <div class="step-text-box">
+                        <p class="step-number">02</p>
+                        <h3 class="heading-tertiary">Easy sorting</h3>
+                        <p class="step-description">
+                            Organize your files and documents using intuitive sorting features. Use tags, folders, and filters to keep everything in place.
+                        </p>
+                    </div>
+                </div>
+                <div class="container grid grid--2-cols grid--center-ver">
+                    <div class="step-text-box">
+                        <p class="step-number">03</p>
+                        <h3 class="heading-tertiary">Fast sharing</h3>
+                        <p class="step-description">
+                            Share files and documents in a flash. Share them with your teams or partners with just two clicks, simply by entering an email.
+                        </p>
+                    </div>
+                    <div class="step-img-box">
+                        <img src="@Url.Content("~/img/work3.webp")" class="step-img" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-possibilities">
+            <div class="possibilities grid grid--2-cols grid--center-ver">
+                <div class="possibilities-img-box">
+                    <img src="@Url.Content("~/img/hero_2_img.webp")"
+                         alt="TMBO Interface"
+                         class="possibilities-img" />
+                </div>
+                <div class="possibilities-text-box">
+                    <h2 class="heading-secendery">TMBO opens up new possibilities</h2>
+                    <h3 class="heading-tertiary">
+                        Keep your tasks organized and under control
+                    </h3>
+                    <p class="possibilities-description">
+                        Start easy and quick document sorting, and mark the ones that matter most as important.
+                    </p>
+                    <h3 class="heading-tertiary">Never miss a response</h3>
+                    <p class="possibilities-description">
+                        With the "Shared" tab, you'll always know when and who sent documents to you.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container grid grid--footer">
+            <div class="logo-column">
+                <a href="#" class="footer-logo">
+                    <img class="logo" alt="TMBO Logo" src="@Url.Content("~/img/logo_png.png")" />
+                </a>
+                <ul class="social-links">
+                    <li>
+                        <a class="footer-link" href="#" aria-label="Instagram">
+                            <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#" aria-label="Facebook">
+                            <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#" aria-label="Twitter">
+                            <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright">
+                    Copyright &copy; <span class="copyright-year">2027</span> by TMBO,
+                    Inc. All rights reserved.
+                </p>
+            </div>
+            <div class="adress-column">
+                <p class="footer-heading">Contact us</p>
+                <address class="contacts">
+                    <p class="adress">Akademicka 16, 5th floor, 40-800 Gliwice</p>
+                    <p>
+                        <a class="footer-link" href="tel:987-654-321">987-654-321</a><br />
+                        <a class="footer-link" href="mailto:hello@TMBO.com">hello@TMBO.com</a>
+                    </p>
+                </address>
+            </div>
+            <div class="nav-column">
+                <p class="footer-heading">Account</p>
+                <ul class="footer-nav">
+                    <li>
+                        <a class="footer-link" href="@Url.Content("~/registration")">Create account</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="@Url.Content("~/sign_in")">Log in</a>
+                    </li>
+                    <li><a class="footer-link" href="#">For tablets</a></li>
+                    <li><a class="footer-link" href="#">For phones</a></li>
+                </ul>
+            </div>
+            <div class="nav-column">
+                <p class="footer-heading">Company</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">About TMBO</a></li>
+                    <li><a class="footer-link" href="#">For companies</a></li>
+                    <li><a class="footer-link" href="#">Legal partners</a></li>
+                    <li><a class="footer-link" href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="nav-column">
+                <p class="footer-heading">Resources</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">TMBO Catalog</a></li>
+                    <li><a class="footer-link" href="#">Help Center</a></li>
+                    <li><a class="footer-link" href="#">Privacy and Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

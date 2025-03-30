@@ -1,0 +1,47 @@
+﻿@model Order_Disc.Entities.FolderEntity;
+@{
+    Layout = null;
+}
+<div id="documents-folder-contents">
+    @if (!Model.Files.Any())
+    {
+        <p>No files in this folder.</p>
+    }
+    else
+    {
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th class="sortable" onclick="sortTable(0)">File Name</th>
+                    <th class="sortable" onclick="sortTable(1)">Size</th>
+                    <th class="sortable" onclick="sortTable(2)">Added</th>
+                    <th class="icon-column"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var file in Model.Files)
+                {
+                    <tr>
+                        <td>
+                            <span class="folder-name">@file.FileName</span>
+                        </td>
+                        <td>
+                            <span class="owner-text">@(file.SizeInBytes / 1024) KB</span>
+                        </td>
+                        <td>
+                            <span class="last-modified">@file.UploadDate.ToString("dd MMM yyyy")</span>
+                        </td>
+                        <td>
+                            <i class="bi bi-download options-icon gray-icon" onclick="downloadItem('file', @file.Id )"></i>
+                            <i class="bi bi-trash3-fill options-icon gray-icon active" onclick="moveToTrash(@file.Id, 'file')"></i>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    <div id="uploadArea" data-current-folder-id="">
+        <input type="file" id="fileInput" hidden multiple />
+        <button id="uploadButton">Choose file</button>
+    </div>
+</div>

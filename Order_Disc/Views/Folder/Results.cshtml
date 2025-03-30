@@ -1,0 +1,59 @@
+﻿@model Order_Disc.Models.SearchVM
+@{
+    Layout = null;
+}
+<div id="search-section">
+
+    @if (!Model.SubFolders.Any() && !Model.Files.Any())
+    {
+        <p>No files or folders in the trash.</p>
+    }
+    else
+    {
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Date</th>
+                    <th class="icon-column"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var subFolder in Model.SubFolders)
+                {
+                    <tr>
+                        <td>
+                            <i class="bi bi-folder-fill folder-icon"></i>
+                            <span class="folder-name">@subFolder.Name</span>
+                        </td>
+                        <td>@(subFolder.IsShared ? "Shared Folder" : "Folder")</td>
+                        <td>@subFolder.CreatedDate.ToString("dd MMM yyyy")</td>
+                        <td>
+                            <i class="bi bi-arrow-counterclockwise options-icon gray-icon"
+                               onclick="restoreItem(@(subFolder.IsShared ? subFolder.FolderShareId : subFolder.Id),
+                               '@(subFolder.IsShared ? "shared-folder" : "folder")')">
+                            </i>
+                        </td>
+                    </tr>
+                }
+                @foreach (var file in Model.Files)
+                {
+                    <tr>
+                        <td>
+                            <span class="file-name">@file.FileName</span>
+                        </td>
+                        <td>@(file.IsShared ? "Shared File" : "File")</td>
+                        <td>@file.UploadDate.ToString("dd MMM yyyy")</td>
+                        <td>
+                            <i class="bi bi-arrow-counterclockwise options-icon gray-icon"
+                               onclick="restoreItem(@(file.IsShared ? file.FileShareId : file.Id),
+                                         '@(file.IsShared ? "shared-file" : "file")')">
+                            </i>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

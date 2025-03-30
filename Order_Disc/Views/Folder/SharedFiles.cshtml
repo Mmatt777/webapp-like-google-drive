@@ -1,0 +1,39 @@
+﻿@model List<Order_Disc.Models.FileShareVM>
+@{
+    Layout = null;
+}
+<div id="shared-folder-contents">
+    @if (Model == null || !Model.Any())
+    {
+        <p>No shared files.</p>
+    }
+    else
+    {
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th class="sortable" onclick="sortTable('.shared-folder-contents .styled-table', 0)">File Name</th>
+                    <th class="sortable" onclick="sortTable('.shared-folder-contents .styled-table', 1)">Shared By</th>
+                    <th class="sortable" onclick="sortTable('.shared-folder-contents .styled-table', 2)">Size</th>
+                    <th class="sortable" onclick="sortTable('.shared-folder-contents .styled-table', 3)">Added</th>
+                    <th class="icon-column"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var file in Model)
+                {
+                    <tr data-file-id="@file.FileShareId">
+                        <td><span class="folder-name">@file.FileName</span></td>
+                        <td><span class="owner-text">@($"{file.SharedByFirstName} {file.SharedByLastName}")</span></td>
+                        <td><span class="owner-text">@(file.SizeInBytes / 1024) KB</span></td>
+                        <td><span class="last-modified">@file.UploadDate.ToString("dd MMM yyyy")</span></td>
+                        <td>
+                            <i class="bi bi-download options-icon gray-icon" onclick="downloadItem('file', @file.Id )"></i>
+                            <i class="bi bi-trash3-fill options-icon gray-icon active" onclick="moveSharedFileToTrash(@file.FileShareId)"></i>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

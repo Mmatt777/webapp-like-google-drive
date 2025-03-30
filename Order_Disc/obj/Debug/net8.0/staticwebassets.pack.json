@@ -1,0 +1,377 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Order_Disc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Order_Disc.31a82f1x4g.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\UserFolders\\1\\Trash\\test3\\.NETC.png",
+      "PackagePath": "staticwebassets\\UserFolders\\1\\Trash\\test3\\.NETC.png"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\UserFolders\\1\\Trash\\test3\\E_GM2_0081120_25.pdf",
+      "PackagePath": "staticwebassets\\UserFolders\\1\\Trash\\test3\\E_GM2_0081120_25.pdf"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\UserFolders\\1\\Trash\\test3\\gmaill.png",
+      "PackagePath": "staticwebassets\\UserFolders\\1\\Trash\\test3\\gmaill.png"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\UserFolders\\1\\test1\\.NETC.png",
+      "PackagePath": "staticwebassets\\UserFolders\\1\\test1\\.NETC.png"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\UserFolders\\1\\test1\\17265861.png",
+      "PackagePath": "staticwebassets\\UserFolders\\1\\test1\\17265861.png"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\UserFolders\\1\\test1\\Zal.1.M.2021.448.Z.92_POTWIERDZENIE_ODBIORU (1).docx",
+      "PackagePath": "staticwebassets\\UserFolders\\1\\test1\\Zal.1.M.2021.448.Z.92_POTWIERDZENIE_ODBIORU (1).docx"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\UserFolders\\1\\test1\\c#.jfif",
+      "PackagePath": "staticwebassets\\UserFolders\\1\\test1\\c#.jfif"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\UserFolders\\1\\test1\\gmaill.png",
+      "PackagePath": "staticwebassets\\UserFolders\\1\\test1\\gmaill.png"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\css\\Layout\\general.css",
+      "PackagePath": "staticwebassets\\css\\Layout\\general.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\css\\Layout\\queries.css",
+      "PackagePath": "staticwebassets\\css\\Layout\\queries.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\css\\Layout\\style.css",
+      "PackagePath": "staticwebassets\\css\\Layout\\style.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\css\\Login\\general.css",
+      "PackagePath": "staticwebassets\\css\\Login\\general.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\css\\Login\\style.css",
+      "PackagePath": "staticwebassets\\css\\Login\\style.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\css\\Registration\\general.css",
+      "PackagePath": "staticwebassets\\css\\Registration\\general.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\css\\Registration\\style.css",
+      "PackagePath": "staticwebassets\\css\\Registration\\style.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\css\\SecurePage\\style.css",
+      "PackagePath": "staticwebassets\\css\\SecurePage\\style.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\img\\hero_2_img.webp",
+      "PackagePath": "staticwebassets\\img\\hero_2_img.webp"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\img\\heroimg.webp",
+      "PackagePath": "staticwebassets\\img\\heroimg.webp"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\img\\logo_png.png",
+      "PackagePath": "staticwebassets\\img\\logo_png.png"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\img\\work1.webp",
+      "PackagePath": "staticwebassets\\img\\work1.webp"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\img\\work2.webp",
+      "PackagePath": "staticwebassets\\img\\work2.webp"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\img\\work3.webp",
+      "PackagePath": "staticwebassets\\img\\work3.webp"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\js\\Mydisc.js",
+      "PackagePath": "staticwebassets\\js\\Mydisc.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\js\\download.js",
+      "PackagePath": "staticwebassets\\js\\download.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\js\\markImportant.js",
+      "PackagePath": "staticwebassets\\js\\markImportant.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\js\\search.js",
+      "PackagePath": "staticwebassets\\js\\search.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\js\\shareFolder.js",
+      "PackagePath": "staticwebassets\\js\\shareFolder.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\js\\trash.js",
+      "PackagePath": "staticwebassets\\js\\trash.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\js\\upload.js",
+      "PackagePath": "staticwebassets\\js\\upload.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Order_Disc.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Order_Disc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Order_Disc.props",
+      "PackagePath": "build\\Order_Disc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Order_Disc.props",
+      "PackagePath": "buildMultiTargeting\\Order_Disc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Order_Disc.props",
+      "PackagePath": "buildTransitive\\Order_Disc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

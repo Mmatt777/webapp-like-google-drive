@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3B2626-DDF6-47E5-BFFA-2983C42BACB0}|Order_Disc\\Order_Disc.csproj|d:\\program files\\visualstudio\\order_disc\\order_disc\\order_disc\\order_disc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3B2626-DDF6-47E5-BFFA-2983C42BACB0}|Order_Disc\\Order_Disc.csproj|solutionrelative:order_disc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Order_Disc\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Program Files\\VisualStudio\\Order_Disc\\Order_Disc\\Order_Disc\\Order_Disc\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Order_Disc\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwBoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T18:39:17.152Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

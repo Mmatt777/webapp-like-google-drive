@@ -1,0 +1,115 @@
+﻿@using System.Linq
+@model IEnumerable<Order_Disc.Models.FolderVM>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="~/css/SecurePage/style.css" rel="stylesheet" />
+    <script defer src="~/js/Mydisc.js"></script>
+    <script defer src="/js/upload.js"></script>
+    <script defer src="/js/markImportant.js"></script>
+    <script defer src="/js/trash.js"></script>
+    <script defer src="~/js/download.js"></script>
+    <script defer src="~/js/shareFolder.js"></script>
+    <script defer src="~/js/search.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Logged In</title>
+</head>
+<body>
+    <nav class="nav-box">
+        <a href="#Documents" class="nav-icon">
+            <img class="logo logos" alt="TMBO Logo" src="~/img/logo_png.png" />
+        </a>
+        <a href="#" class="nav-icon new-text" onclick="openNewFolderModal()">
+            <i class="bi bi-plus-circle menu-icon-new"></i>New
+        </a>
+        <a href="#" class="nav-icon" id="tab-documents" onclick="showSection('documents-section');">
+            <i class="bi bi-folder menu-icon"></i>Documents
+        </a>
+        <a href="#" class="nav-icon" id="tab-shared" onclick="showSection('shared-section');">
+            <i class="bi bi-share-fill menu-icon"></i>Shared
+        </a>
+        <a href="#" class="nav-icon" id="tab-important" onclick="showSection('important-section');">
+            <i class="bi bi-exclamation-lg menu-icon"></i>Important
+        </a>
+        <a href="#" class="nav-icon" id="tab-trash" onclick="showSection('trash-section');">
+            <i class="bi bi-trash3 menu-icon"></i>Trash
+        </a>
+        <a href="@Url.Action("Login", "Account")" class="nav-icon" onclick="logOut()">
+            <i class="bi bi-box-arrow-left menu-icon"></i>Log Out
+        </a>
+    </nav>
+    <menu>
+        <div class="search-box">
+            <i onclick="showSection('search-section');" class="bi bi-search search-icon"></i>
+            <input type="text" class="search-place" id="searchInput" placeholder="Search" />
+            <div class="user-container">
+                <a href="#Account" class="acc-icon">
+                    <i class="bi bi-person-circle menu-icon-acc"></i>
+                </a>
+                <span class="username">@TempData["SuccessMessage"]</span>
+            </div>
+        </div>
+    </menu>
+    <main>
+        <section id="search-section" class="display-section" data-loader="loadSearchSection">
+            <div id="user-s-folders">
+                <!-- Partial view will be loaded here -->
+            </div>
+        </section>
+        <section class="modal-container" id="newFolderSection">
+            <div class="modal">
+                <h2 class="modal-title">New folder:</h2>
+                <form action="@Url.Action("Create", "Folder")" method="post">
+                    <input type="text" class="folder-input" id="folderName" name="folderName" required />
+                    <div class="buttons-modal">
+                        <button type="submit">Create folder</button>
+                        <button type="button" onclick="closeNewFolderModal()">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="documents-section" class="display-section hidden" data-loader="loadUserFolders" data-current-folder-id="navigateToFolder(folderId)">
+            <div id="user-folders">
+                <!-- User's folder views will be loaded here -->
+            </div>
+            <div id="documents-folder-contents">
+                <!-- Document file views will be loaded here -->
+            </div>
+        </section>
+
+        <section id="shared-section" class="display-section hidden" data-loader="loadSharedFolders" data-current-folder-id="navigateToSharedFolder(folderId)">
+            <div id="shared-folders">
+                <!-- Shared folder views will be loaded here -->
+            </div>
+            <div id="shared-folder-contents">
+                <!-- Document file views will be loaded here -->
+            </div>
+        </section>
+
+        <section id="important-section" class="display-section hidden" data-loader="loadImportantFolders" data-current-folder-id="navigateToFolder(folderId)">
+            <div id="important-folders">
+                <!-- Views of folders marked as important will be loaded here -->
+            </div>
+            <div id="important-folder-contents">
+                <!-- Files in important folders will be loaded dynamically -->
+            </div>
+        </section>
+
+        <section id="trash-section" class="display-section hidden" data-loader="loadTrashContents">
+            <div id="trash-contents">
+                <!-- Trash contents will be loaded here -->
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

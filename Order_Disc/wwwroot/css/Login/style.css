@@ -1,0 +1,96 @@
+﻿.heading-secondary {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.longin-form {
+    font-size: 3.2rem;
+    border-radius: 12px;
+    border: none;
+}
+
+.login-btn {
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1.2rem 1.8rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    color: #2b8a3e;
+}
+
+.login-btn:hover,
+.login-btn:active {
+    box-shadow: inset 0 0 0 100px #dee2e6;
+    transition: all 300ms;
+}
+
+.login-text {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.acc-create-link:link,
+.acc-create-link:visited {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.acc-create-link:hover,
+.acc-create-link:active {
+    color: #dee2e6;
+}
+
+.text-danger-summary {
+    list-style-type: none;
+    display: block;
+    min-height: 2rem;
+    font-size: 1.6rem;
+    color: red;
+    margin-bottom: 0.1rem;
+    visibility: hidden;
+}
+
+.text-danger-summary:empty {
+    visibility: hidden;
+}
+
+.text-danger-summary:not(:empty) {
+    visibility: visible;
+}
+
+.text-danger-summary ul li {
+    list-style-type: none;
+    list-style: none;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 0.4rem;
+}
+
+.text-danger {
+    display: block;
+    min-height: 1.8rem;
+    font-size: 1.6rem;
+    color: red;
+    margin-top: 0.1rem;
+    visibility: hidden;
+}
+
+.text-danger:empty {
+    visibility: hidden;
+}
+
+.text-danger:not(:empty) {
+    visibility: visible;
+}
